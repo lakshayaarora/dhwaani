@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    padding: 2px;
+    margin: -3px;
+}
+header{
+    background: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    display:flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 60px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding:0 24px;
+    list-style:none;
+}
+nav ul li a{
+    padding:0 24px;
+    list-style:none;
+    color:white;
+    text-decoration: none;
+}
+nav ul li a :hover{
+   background-color:rgb(3, 53, 3);
+    font-weight: bolder;
+}
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height:5vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container1{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url('spotifyy-15.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14 px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+      width:80vw;
+      text-align: center;
+}

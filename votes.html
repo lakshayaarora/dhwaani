@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTES</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <style>
+ h1 {
+            font-family: Sofia;
+            font-size: 55px;
+            color: black;
+            text-align: center;
+        }
+        h2{
+            font-family: Sofia;
+            font-size: 30px;
+            color: red;
+            text-align: left;
+        }
+        input[type=radio] {
+    border: 0px;
+    width: 1.5%;
+    height: 2em;
+}
+        body { 
+      background-image: url('spotify-11.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .btn-group button 
+{
+    font-family: Sofia;
+            font-size: 48px;
+            background-color: cadetblue;
+            text-align: center;
+  border: 1px solid white; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+     hellu{
+         font-family: sofia;
+     }
+     .button {
+  background-color: dimgrey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <form action="vote.php" method="post">
+        <h1 style="color:white";>VOTE YOUR FAVOURITE SINGER</h1>
+        <input type="radio" id="arjitsingh" name="fav_singer" value="ARJIT SINGH">
+        <label for="arjitsingh"><img src="arjit.jpg" alt="" style="width:21%"><br><h2>ARJIT SINGH</h2></label><br>
+        <input type="radio" id="armaanmalik" name="fav_singer" value="ARMAAN MALIK">
+        <label for="armaanmalik"><img src="armaan.jpg" alt="" style="width:21%"><br><h2>ARMAAN MALIK</h2></label><br>      
+        <input type="radio" id="amaalmalik" name="fav_singer" value="AMAAL MALIK">
+        <label for="amaalmalik"><img src="amaan.jpg" alt="" style="width:21%"><br><h2>AMAAL MALIK</h2></label><br>
+        <input type="radio" id="nehakakkar" name="fav_singer" value="NEHA KAKKAR">
+        <label for="nehakakkar"><img src="neha.jpg" alt="" style="width:21%"><br><h2>NEHA KAKKAR</h2></label><br>
+        <input type="radio" id="shreyaghoshal" name="fav_singer" value="SHREYA GHOSHAL">
+        <label for="shreyaghoshal"><img src="shreya.jpg" alt="" style="width:21%"><br><h2>SHREYA GHOSHAL</h2></label><br><br>
+        <button class="button" type="submit">SUBMIT</button>
+        <button class="button" type="reset">RESET</button>
+    </form>
+</body>
+</html>
